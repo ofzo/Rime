@@ -4,11 +4,13 @@
 
 build/
 *.userdb/
-installation.yaml
 user.yaml
+*.custom.yaml
+!others/**/*.custom.yaml
 
-Tool/scel2txt/out/*
-Tool/scel2txt/scel/*
+custom_phrase_double.txt
+others/script/scel2txt/out/*
+others/script/scel2txt/scel/*
 
 *private*
 
