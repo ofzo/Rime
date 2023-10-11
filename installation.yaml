@@ -3,8 +3,8 @@ distribution_name: "雾凇拼音"
 distribution_version: 0.16.2
 install_time: "Sun Oct  8 05:40:50 2023"
 rime_version: 1.8.5
+# id可以自定义，但不能其他终端定义的ID重复
 installation_id: "hamster"
-# App内同步位置无需设置，保存在 Rime/sync 下
-# iCloud前缀路径固定为：/private/var/mobile/Library/Mobile Documents/iCloud~dev~fuxiao~app~hamsterapp/Documents
-# 后面的地址可自定义，如
-sync_dir: "/private/var/mobile/Library/Mobile Documents/iCloud~dev~fuxiao~app~hamsterapp/Documents/Rime~Sync"
+# 仓的iOS中iCloud前缀路径固定为：/private/var/mobile/Library/Mobile Documents/iCloud~dev~fuxiao~app~hamsterapp/Documents
+# iOS中的路径与MacOS及Windows的iCloud路径是不同的
+sync_dir: "/private/var/mobile/Library/Mobile Documents/iCloud~dev~fuxiao~app~hamsterapp/Documents/sync"
