@@ -224,6 +224,25 @@ gone	gone
 Go程	gocheng
 code	code
 Rust	rust
-Node    node
+Node	node
+ok	OK
+done	Done
 
-呢 ni 
+呢	ni 
+了	l
+书益	shuyi
+书益	sy
+寄件	jijian
+查件	chajian
+收件	shoujian
+华骞	huaqian
+砚然	yanran 
+双渔	shuangyu
+洛善	luoshan
+预发	yufa
+施巧	shiqiao
+合下代码	hexiadaima
+提测	tice
+支小宝	zhixiaobao
+
+

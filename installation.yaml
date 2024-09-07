@@ -1,10 +1,8 @@
 distribution_code_name: Squirrel
-distribution_name: "雾凇拼音"
-distribution_version: 0.16.2
+distribution_name: "鼠鬚管"
+distribution_version: 1.0.2
 install_time: "Sun Oct  8 05:40:50 2023"
-rime_version: 1.8.5
-# id可以自定义，但不能其他终端定义的ID重复
-installation_id: "hamster"
-# 仓的iOS中iCloud前缀路径固定为：/private/var/mobile/Library/Mobile Documents/iCloud~dev~fuxiao~app~hamsterapp/Documents
-# iOS中的路径与MacOS及Windows的iCloud路径是不同的
+installation_id: hamster
+rime_version: 1.11.2
 sync_dir: "/private/var/mobile/Library/Mobile Documents/iCloud~dev~fuxiao~app~hamsterapp/Documents/sync"
+update_time: "Fri Jul 12 16:08:54 2024"

@@ -107,6 +107,8 @@ translator:
   spelling_hints: 8              # corrector.lua ：为了让错音错字提示的 Lua 同时适配全拼双拼，将拼音显示在 comment 中
   always_show_comments: true     # corrector.lua ：Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供 corrector.lua 做判断用。
   initial_quality: 1.2           # 拼音的权重应该比英文大
+  # comment_format:          # 自定义提示码
+    # - xform/.*//           # 清空提示码
   preedit_format:                # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
     - xform/([jqxy])v/$1u/       # 显示为 ju qu xu yu
     # - xform/([nl])v/$1ü/       # 显示为 nü lü
@@ -120,8 +122,8 @@ melt_eng:
   enable_sentence: false   # 禁止造句
   enable_user_dict: false  # 禁用用户词典
   initial_quality: 1.1     # 初始权重
-  comment_format:          # 自定义提示码
-    - xform/.*//           # 清空提示码
+  # comment_format:          # 自定义提示码
+    # - xform/.*//           # 清空提示码
 
 
 # 反查：两分（拼字）
